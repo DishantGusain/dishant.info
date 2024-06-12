@@ -27,7 +27,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/clientcomponents/TsParticles.js",
-    "src/components/servercomponents/twoColumns.js",
+    "src/components/servercomponents/twoColumns.tsx",
     "types"  // Add this line to include the custom types directory
   ],
   "exclude": ["node_modules"]
