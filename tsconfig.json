@@ -21,6 +21,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/clientcomponents/TsParticles.js",
+    "src/components/servercomponents/twoColumns.js",
+    "types"  // Add this line to include the custom types directory
+  ],
   "exclude": ["node_modules"]
 }

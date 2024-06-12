@@ -1,0 +1,107 @@
+"use client";
+
+import React from "react";
+
+import { BsArrowDownCircle } from "react-icons/bs";
+
+import { TypeAnimation } from "react-type-animation";
+import TsParticles from "./../clientcomponents/TsParticles";
+
+export default function Hero() {
+  return (
+    <section id="hero" className="relative bg-gray-900">
+      <TsParticles />
+
+      <div className="sm:block top-2 sm:top-12 left-2 sm:left-12 z-40 sm:absolute hidden">
+        <img
+          src="/Images/thoughtbubblenew.webp"
+          width={110}
+          alt="coding icon"
+        />
+      </div>
+      <div className="sm:block top-0 sm:top-8 right-2 sm:right-12 z-40 sm:absolute hidden">
+        <img
+          src="/Images/thoughtbubble5.webp"
+          width={175}
+          alt="blob icon"
+        />
+      </div>
+      <div className="sm:block bottom-8 left-12 z-40 sm:absolute hidden">
+        <img
+          src="/Images/thoughtbubble6.webp"
+          width={60}
+          alt="star icon"
+        />
+      </div>
+      <div className="sm:block right-12 bottom-8 z-40 sm:absolute hidden">
+        <img
+          src="/Images/thoughtbubble2.webp"
+          width={60}
+          alt="blob icon"
+        />
+      </div>
+      <div className="z-30 md:flex justify-center items-center bg-primaryBackground px-6 2xl:px-32 h-screen HeroContainer">
+        <div className="flex justify-center items-center pt-16 sm:pt-32 md:pt-0 2xl:pl-20 w-full md:w-1/2 text-center">
+          <div className="relative w-80 md:w-96 2xl:w-100 h-80 md:h-96 2xl:h-100 animate-ProfileAnimate">
+            <img
+              src="/Images/hero.webp"
+              alt="Freelance Developer Icon Art"
+              className="rounded-full w-full h-full object-contain"
+            />
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center pt-8 md:pt-0 w-full md:w-1/2 text-left">
+          <div>
+            <h2 className="mt-0 mb-0 font-thin text-left text-textprimary text-xl md:text-4xl 2xl:text-5xl animate-slideBottom">
+              <TypeAnimation
+                className=""
+                preRenderFirstString={true}
+                sequence={[
+                  1000,
+                  "HI, I'M",
+                  1500,
+                  "HI, I'M A DEVELOPER",
+                  1000,
+                  "HI, I'M A DESIGNER",
+                  1000,
+                  "HI, I'M A FREELANCER",
+                  1000,
+                ]}
+                speed={99}
+              />
+            </h2>
+
+            <h1 className="mt-0 mb-2 py-2 sm:py-0 font-bold text-left text-textprimary text-xl md:text-8xl 2xl:text-9xl">
+              DISHANT
+            </h1>
+            <h1 className="mt-0 mb-0 font-normal text-left text-textprimary text-xl md:text-xl 2xl:text-2xl">
+              Specializing in React / Next Js Front-End Development
+            </h1>
+
+            <div className="sm:flex justify-start items-center my-6 sm:my-10 text-black text-xs sm:text-sm no-underline">
+              <button className="button button--pandora">
+                <a
+                  className="text-primaryBackground no-underline"
+                  href="#portfolio"
+                >
+                  &lt; View My Work /&gt;
+                </a>
+              </button>
+              <div className="flex items-center mt-4 sm:mt-0 text-base text-white hover:underline cursor-pointer">
+                <a
+                  href="#contactme"
+                  className="mr-2 ml-0 sm:ml-12 font-semibold text-white no-underline"
+                >
+                  Contact Me{" "}
+                </a>
+
+                <BsArrowDownCircle />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
