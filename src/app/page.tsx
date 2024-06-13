@@ -1,6 +1,6 @@
 import AboutMe from "@/components/servercomponents/AboutMe";
 import Hero from "@/components/servercomponents/Hero";
-import Image from "next/image";
+import Projects from "@/components/servercomponents/Projects";
 
 export default function Home() {
   return (
@@ -8,7 +8,8 @@ export default function Home() {
       <Hero />
       <AboutMe />
 
-      {/* <Projects />
+      <Projects />
+      {/*
 
       <MySkills />
 
