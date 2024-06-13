@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dishant Gusain | React/Next Js Freelance Developer",
+  title: "Dishant Gusain | React/Next Js Website Application Developer",
 
   description:
     "I'm a React web developer with 3 years of commercial development experience. I enjoy developing Dynamic & Responsive UI/UX, Front-End React Website Applications using modern frameworks like Next.js that provide real value to the end user. Currently working as a full time Freelancer in UPWORK.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    title: "Dishant Gusain | React/Next Js Freelance Developer",
+    title: "Dishant Gusain | React/Next Js Website Application Developer",
     url: "https://dishant.info/",
     description:
       "I'm a React web developer with 3 years of commercial development experience. I enjoy developing Dynamic & Responsive UI/UX, Front-End React Website Applications using modern frameworks like Next.js that provide real value to the end user. Currently working as a full time Freelancer in UPWORK.",
