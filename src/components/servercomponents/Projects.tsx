@@ -46,7 +46,7 @@ export default function Projects () {
           <h1 className="inline bg-textprimary mt-0 mb-0 px-4 font-normal text-black text-xl">
             Portfolio
           </h1>
-          <h1 className="mt-0 mb-2 font-semibold text-white text-xl">
+          <h1 className="mt-0 mb-2 font-semibold text-4xl text-white">
             Some of my most recent projects
           </h1>
         </div>
