@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { TbWorldWww } from "react-icons/tb";
 import { Fade } from "react-awesome-reveal";
 
-export default () => {
+export default function Services() {
   const [isHoverCard1, setIsHoverCard1] = useState(false);
   const [isHoverCard2, setIsHoverCard2] = useState(false);
   const [isHoverCard3, setIsHoverCard3] = useState(false);
@@ -244,4 +244,4 @@ export default () => {
       </Fade>
     </section>
   );
-};
+}

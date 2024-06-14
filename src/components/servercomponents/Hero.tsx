@@ -12,31 +12,31 @@ export default function Hero() {
     <section id="hero" className="relative bg-gray-900">
       <TsParticles />
 
-      <div className="sm:block top-2 sm:top-12 left-2 sm:left-12 z-40 sm:absolute hidden">
+      <div className="sm:block top-10 2xl:top-12 left-8 2xl:left-12 z-40 sm:absolute hidden">
         <img
           src="/Images/thoughtbubblenew.webp"
-          width={110}
+          className="w-24 2xl:w-28"
           alt="coding icon"
         />
       </div>
-      <div className="sm:block top-0 sm:top-8 right-2 sm:right-12 z-40 sm:absolute hidden">
+      <div className="sm:block top-0 2xl:top-8 right-4 2xl:right-12 z-40 sm:absolute hidden">
         <img
           src="/Images/thoughtbubble5.webp"
-          width={175}
+          className="w-36 2xl:w-44"
           alt="blob icon"
         />
       </div>
-      <div className="sm:block bottom-8 left-12 z-40 sm:absolute hidden">
+      <div className="sm:block bottom-4 2xl:bottom-8 left-8 2xl:left-12 z-40 sm:absolute hidden">
         <img
           src="/Images/thoughtbubble6.webp"
-          width={60}
+          className="w-10 2xl:w-14"
           alt="star icon"
         />
       </div>
-      <div className="sm:block right-12 bottom-8 z-40 sm:absolute hidden">
+      <div className="sm:block right-4 2xl:right-12 bottom-4 2xl:bottom-8 z-40 sm:absolute hidden">
         <img
           src="/Images/thoughtbubble2.webp"
-          width={60}
+          className="w-10 2xl:w-14"
           alt="blob icon"
         />
       </div>
@@ -53,12 +53,12 @@ export default function Hero() {
 
         <div className="flex justify-center items-center pt-8 md:pt-0 w-full md:w-1/2 text-left">
           <div>
-            <h2 className="mt-0 mb-0 font-thin text-left text-textprimary text-xl md:text-4xl 2xl:text-5xl animate-slideBottom">
+            <h2 className="mt-0 mb-0 font-extralight text-left text-textprimary text-xl md:text-4xl 2xl:text-5xl animate-slideBottom">
               <TypeAnimation
                 className=""
                 preRenderFirstString={true}
                 sequence={[
-                  1000,
+                  700,
                   "HI, I'M",
                   1500,
                   "HI, I'M A DEVELOPER",
@@ -68,7 +68,7 @@ export default function Hero() {
                   "HI, I'M A FREELANCER",
                   1000,
                 ]}
-                speed={99}
+                speed={10}
               />
             </h2>
 

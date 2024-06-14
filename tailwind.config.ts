@@ -14,6 +14,14 @@ const config: Config = {
         primaryBackground: "#030712",
         secondaryBackground: "#FCD34D",
       },
+      spacing: {
+        97: "26rem",
+        98: "38rem",
+        99: "30rem",
+        100: "32rem",
+        101: "34rem",
+        102: "36rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

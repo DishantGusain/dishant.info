@@ -40,8 +40,8 @@ const FourProject = {
 
 export default function Projects () {
   return (
-    <section className="relative bg-primaryBackground px-6 2xl:px-80 pt-10 pb-28">
-      <a id="portfolio">
+    <section id="portfolio" className="relative bg-primaryBackground px-6 2xl:px-80 pt-10 pb-28">
+    
         <div className="my-20 text-center">
           <h1 className="inline bg-textprimary mt-0 mb-0 px-4 font-normal text-black text-xl">
             Portfolio
@@ -101,7 +101,7 @@ export default function Projects () {
             tag3={FirstProject.tag3}
           />
         </Fade>
-      </a>
+     
     </section>
   );
 };

@@ -35,7 +35,7 @@ export default function ContactMe() {
           Contact Me
         </h1>
         <h3 className="mt-0 mb-2 font-semibold text-4xl md:text-4xl">
-          Let's Work Together
+          Let&apos;s Work Together
         </h3>
       </div>
       <div className="md:flex justify-between items-start md:px-32 2xl:px-80">

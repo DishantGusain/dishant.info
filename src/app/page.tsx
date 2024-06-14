@@ -8,8 +8,11 @@ import { FaArrowUp } from "react-icons/fa";
 
 export default function Home() {
   return (
+
     <main className="">
+      
       <Hero />
+      
       <AboutMe />
 
       <Projects />
@@ -24,7 +27,9 @@ export default function Home() {
       >
         <FaArrowUp />
       </a>
+
       <ContactMe />
+
     </main>
   );
 }

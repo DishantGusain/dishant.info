@@ -85,14 +85,14 @@ export default function MySkills() {
                   JavaScript
                 </h1>
                 <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
-                  90%
+                  95%
                 </h3>
               </div>
               <div  className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[90%]`}
+                  } bg-gray-700 rounded-3xl h-full  w-[95%]`}
                 />
               </div>
             </div>
@@ -121,14 +121,14 @@ export default function MySkills() {
                   Redux Toolkit
                 </h1>
                 <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
-                  85%
+                  90%
                 </h3>
               </div>
               <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-10/12`}
+                  } bg-gray-700 rounded-3xl h-full  w-[90%]`}
                 />
               </div>
             </div>
@@ -214,14 +214,14 @@ export default function MySkills() {
                   Back-End Development
                 </h1>
                 <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
-                  75%
+                  80%
                 </h3>
               </div>
               <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[75%]`}
+                  } bg-gray-700 rounded-3xl h-full  w-[80%]`}
                 />
               </div>
             </div>
@@ -250,14 +250,14 @@ export default function MySkills() {
                   Adobe XD / FIGMA
                 </h1>
                 <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
-                  85%
+                  90%
                 </h3>
               </div>
               <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-10/12`}
+                  } bg-gray-700 rounded-3xl h-full  w-[90%]`}
                 />
               </div>
             </div>

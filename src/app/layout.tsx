@@ -91,10 +91,10 @@ export default function RootLayout({
 
       <body className={inter.className}>
         {children}
-        <link
+        {/* <link
           itemProp="thumbnailUrl"
           href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/Dishant%20Gusain%20React%20Next%20Js%20Responsive%20Front%20End.png?alt=media&token=9d7246ab-c949-4c4b-8a09-4b31778e9e3d"
-        />
+        /> */}
         <span
           itemProp="thumbnail"
           itemScope
