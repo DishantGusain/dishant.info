@@ -20,7 +20,7 @@ export default function Services() {
         </h1>
       </div>
 
-      <Fade direction="up">
+      <Fade direction="up" triggerOnce>
         <div className="md:flex justify-around my-20 w-full animate-slideTop">
           <article
             onMouseEnter={() => setIsHoverCard1(true)}

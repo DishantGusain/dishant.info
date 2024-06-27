@@ -20,6 +20,8 @@ export default function ContactMe() {
         .then(
           (result) => {
             console.log(result.text);
+            
+            window.location.reload(); // Refresh the page after email is sent
           },
           (error) => {
             console.log(error.text);

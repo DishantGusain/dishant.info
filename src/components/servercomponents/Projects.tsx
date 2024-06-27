@@ -51,7 +51,7 @@ export default function Projects () {
           </h1>
         </div>
     
-        <Fade>
+        <Fade triggerOnce>
             <WideCard
             
             href="https://www.airflip.com/"
@@ -88,7 +88,7 @@ export default function Projects () {
             />
           </div>
         </Fade>
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce>
 
 
           <WideCard

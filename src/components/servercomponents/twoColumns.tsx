@@ -5,7 +5,7 @@ export default function TwoColumns() {
   return (
     <article className="md:flex items-center my-20">
       <div className="md:flex justify-center items-center sm:pl-20 2xl:pl-0 md:w-8/12">
-        <Fade direction="left">
+        <Fade direction="left" triggerOnce>
           <div className="w-full text-left">
             <h1 className="mt-0 mb-0 pb-2 font-normal text-black text-xl md:text-3xl">
               I&apos;m a seasoned&nbsp;
@@ -26,7 +26,7 @@ export default function TwoColumns() {
       </div>
 
       <div className="md:flex justify-center items-center pt-10 md:pt-0 2xl:pl-20 md:w-4/12">
-        <Fade direction="right">
+        <Fade direction="right" triggerOnce>
           <div className="w-full text-left">
             <div className="md:flex items-center py-2">
               <h2 className="font-semibold text-lg">Name:</h2>
