@@ -34,7 +34,7 @@ export default function MySkills() {
         <h3 className="inline bg-black mt-0 mb-0 px-4 font-normal text-lg text-textprimary md:text-lg">
           My Skills
         </h3>
-        <h3 className="mt-0 mb-2 font-semibold text-base md:text-4xl">
+        <h3 className="mt-0 mb-2 font-semibold text-3xl md:text-4xl">
           Expertise
         </h3>
       </div>

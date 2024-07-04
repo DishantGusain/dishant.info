@@ -36,14 +36,14 @@ export default function ContactMe() {
         <h1 className="inline bg-black mt-0 mb-8 px-4 font-normal text-lg text-textprimary md:text-xl">
           Contact Me
         </h1>
-        <h3 className="mt-0 mb-2 font-semibold text-4xl md:text-4xl">
+        <h3 className="mt-0 mb-2 font-semibold text-3xl md:text-4xl">
           Let&apos;s Work Together
         </h3>
       </div>
       <div className="md:flex justify-between items-start md:px-32 2xl:px-80">
         <div className="md:flex justify-center items-center px-4 md:px-0 md:w-5/12">
           <div className="w-full text-left">
-            <h1 className="mt-0 mb-8 font-semibold text-4xl md:text-xl">
+            <h1 className="mt-0 mb-8 font-semibold text-3xl md:text-xl">
               Get in touch !
             </h1>
             <h3>
@@ -74,7 +74,7 @@ export default function ContactMe() {
 
         <div className="md:flex justify-center items-center mt-20 md:mt-0 px-4 md:px-0 md:w-6/12">
           <form ref={form} onSubmit={sendEmail} className="w-full">
-            <h3 className="mt-0 mb-8 font-semibold text-4xl md:text-xl">
+            <h3 className="mt-0 mb-8 font-semibold text-3xl md:text-xl">
               Estimate your Project?
             </h3>
             <div className="my-4">

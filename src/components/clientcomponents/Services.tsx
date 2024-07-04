@@ -15,7 +15,7 @@ export default function Services() {
         <h1 className="inline bg-textprimary mt-0 mb-0 px-4 font-normal text-black text-xl">
           What I Do
         </h1>
-        <h1 className="mt-0 mb-2 font-semibold text-4xl text-white">
+        <h1 className="mt-0 mb-2 font-semibold text-3xl text-white md:text-4xl">
           How I can help your next project
         </h1>
       </div>
@@ -25,7 +25,7 @@ export default function Services() {
           <article
             onMouseEnter={() => setIsHoverCard1(true)}
             onMouseLeave={() => setIsHoverCard1(false)}
-            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
+            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border md:hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
           >
             <div className="flex justify-center mt-4 mb-8 w-full">
               <img
@@ -36,7 +36,7 @@ export default function Services() {
             </div>
             <div
               className={`mr-2 ml-4 ${
-                isHoverCard1 ? "text-textprimary" : " text-gray-400"
+                isHoverCard1 ? "md:text-textprimary text-gray-400" : " text-gray-400"
               }`}
             >
               <h1 className="mt-0 mb-0 font-semibold text-2xl text-center">
@@ -98,7 +98,7 @@ export default function Services() {
           <article
             onMouseEnter={() => setIsHoverCard2(true)}
             onMouseLeave={() => setIsHoverCard2(false)}
-            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
+            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border md:hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
           >
             <div className="flex justify-center mt-4 mb-8 w-full">
               <img
@@ -110,7 +110,7 @@ export default function Services() {
             <div
               className={`mr-2 ml-4 ${
                 isHoverCard2
-                  ? "text-textprimary"
+                  ? "md:text-textprimary text-gray-400"
                   : " text-gray-400 [>h1]:text-white"
               }`}
             >
@@ -178,7 +178,7 @@ export default function Services() {
           <article
             onMouseEnter={() => setIsHoverCard3(true)}
             onMouseLeave={() => setIsHoverCard3(false)}
-            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
+            className="border-gray-800 mx-6 my-4 md:my-0 p-4 border md:hover:border-textprimary border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500"
           >
             <div className="flex justify-center mt-4 mb-8 w-full">
               <img
@@ -190,7 +190,7 @@ export default function Services() {
             <div
               className={`mr-2 ml-4 ${
                 isHoverCard3
-                  ? "text-textprimary"
+                  ? "md:text-textprimary text-gray-400"
                   : " text-gray-400 [>h1]:text-white"
               }`}
             >

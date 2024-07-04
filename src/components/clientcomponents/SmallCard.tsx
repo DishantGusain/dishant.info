@@ -57,9 +57,9 @@ export default function SmallCard({
           </div>
 
           {isShown === true ? (
-            <h2 className="my-3 font-thin text-white text-xl underline">{title}</h2>
+            <h2 className="my-3 font-extralight text-textprimary text-xl">{title}</h2>
           ) : (
-            <h2 className="my-3 font-thin text-white text-xl">{title}</h2>
+            <h2 className="my-3 font-extralight text-white text-xl">{title}</h2>
           )}
         </a>
       </div>

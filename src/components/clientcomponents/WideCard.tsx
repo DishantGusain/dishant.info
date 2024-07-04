@@ -62,14 +62,17 @@ export default function WideCard({
               </div>
             )}
           </div>
-          <h2
-            className="my-3 font-thin text-white text-xl"
-            // css={[
-            //   isShown === true ? className="underline" : className=""
-            // ]}
-          >
-            {title}
-          </h2>
+        
+
+          {isShown === true ? (
+            <h2 className="my-3 font-extralight text-textprimary text-xl">{title}</h2>
+          ) : (
+            <h2 className="my-3 font-extralight text-white text-xl">{title}</h2>
+          )}
+
+
+
+
         </a>
       </div>
     </div>

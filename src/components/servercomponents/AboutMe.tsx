@@ -8,7 +8,7 @@ export default function AboutMe() {
         <h2 className="inline bg-black mt-0 mb-0 px-4 font-normal text-textprimary text-xl">
           About Me
         </h2>
-        <h2 className="mt-0 mb-2 font-semibold text-4xl text-black">
+        <h2 className="mt-0 mb-2 font-semibold text-3xl text-black md:text-4xl">
           Know Me More
         </h2>
       </div>
