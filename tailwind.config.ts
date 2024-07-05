@@ -1,11 +1,19 @@
 import type { Config } from "tailwindcss";
 
+
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+
+
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -32,6 +40,8 @@ const config: Config = {
         slideBottom: "slideBottom 1s ease forwards",
         slideTop: "slideTop 1s ease forwards",
         slideRight: "slideRight 2s  ease forwards",
+        fadeIn: 'fadeIn 0.5s ease-in-out forwards',
+        fadeOut: 'fadeOut 0.2s ease-in-out forwards',
       },
       keyframes: {
         spin: {
@@ -107,9 +117,62 @@ const config: Config = {
             animationTimingFunction: "ease-in",
           },
         },
+        fadeIn: {
+          '0%': { opacity: '0', visibility: 'hidden' },
+          '100%': { opacity: '1', visibility: 'visible' },
+        },
+        fadeOut: {
+          '0%': { opacity: '1', visibility: 'visible' },
+          '100%': { opacity: '0', visibility: 'hidden' },
+        },
+      
       },
+
+
+
+      transitionProperty: {
+        'opacity-visibility': 'opacity, visibility',
+      },
+      transitionDuration: {
+        '500': '500ms',
+      },
+      transitionTimingFunction: {
+        'ease-in-out': 'ease-in-out',
+      },
+      opacity: {
+        '0': '0',
+        '100': '1',
+      },
+      visibility: {
+        'visible': 'visible',
+        'invisible': 'hidden',
+      },
+
+
+
+
+
+
+
+
+
+
+
     },
   },
-  plugins: [],
+  plugins: [
+    addVariablesForColors,
+  ],
 };
+
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+ 
+  addBase({
+    ":root": newVars,
+  });
+}
 export default config;

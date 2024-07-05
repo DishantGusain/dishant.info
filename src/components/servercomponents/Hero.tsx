@@ -19,7 +19,7 @@ export default function Hero() {
           alt="coding icon"
         />
       </div>
-      <div className="sm:block top-0 2xl:top-8 right-4 2xl:right-12 z-40 sm:absolute hidden">
+      {/* <div className="sm:block top-0 2xl:top-8 right-4 2xl:right-12 z-40 sm:absolute hidden">
         <img
           src="/Images/thoughtbubble5.webp"
           className="w-36 2xl:w-44"
@@ -39,7 +39,7 @@ export default function Hero() {
           className="w-10 2xl:w-14"
           alt="blob icon"
         />
-      </div>
+      </div> */}
       <div className="z-30 md:flex justify-center items-center bg-primaryBackground px-6 2xl:px-32 h-screen HeroContainer">
         <div className="flex justify-center items-center pt-16 sm:pt-32 md:pt-0 2xl:pl-20 w-full md:w-1/2 text-center">
           <div className="relative w-80 md:w-96 2xl:w-100 h-80 md:h-96 2xl:h-100 animate-ProfileAnimate">

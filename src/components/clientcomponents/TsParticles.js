@@ -54,14 +54,14 @@ export default function TsParticles() {
 
       particles: {
         number: {
-          value: 30,
+          value: 50,
           density: {
             enable: true,
             value_area: 800,
           },
         },
         color: {
-          value: "#FCD34D",
+          value: "#766AAE",
         },
         shape: {
           type: "circle",
