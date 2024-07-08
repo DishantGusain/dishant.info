@@ -72,7 +72,7 @@ export default function Hero() {
               />
             </h2>
 
-            <h1 className="mt-0 mb-2 py-2 sm:py-0 font-bold text-left text-textprimary text-xl md:text-8xl 2xl:text-9xl">
+            <h1 className="bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 mt-0 mb-2 py-2 sm:py-0 font-bold text-left text-textprimary text-transparent text-xl md:text-8xl 2xl:text-9xl">
               DISHANT
             </h1>
             <h1 className="mt-0 mb-0 font-normal text-left text-textprimary text-xl md:text-xl 2xl:text-2xl">
