@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function TypingAnimationComponent() {
     return <div>
-        <h2 className="mt-0 mb-0 font-extralight text-2xl text-left text-textprimary md:text-4xl 2xl:text-5xl animate-slideBottom">
+        <h2 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 font-extralight text-2xl text-left text-transparent md:text-4xl 2xl:text-5xl animate-slideBottom">
             <TypeAnimation
                 className=""
                 preRenderFirstString={true}

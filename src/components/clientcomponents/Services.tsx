@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <section className="relative bg-primaryBackground px-0 md:px-20 2xl:px-56 pt-20 pb-28">
       <div className="mb-10 text-center">
-        <h1 className="inline bg-primaryYellow mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
+        <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
           What I Do
         </h1>
         <h1 className="mt-0 mb-2 font-semibold text-2xl text-white md:text-4xl">
@@ -18,7 +18,7 @@ export default function Services() {
 
       <div className="md:flex justify-around my-20 w-full animate-slideTop">
         <article
-          className="border-gray-800 md:hover:border-primaryYellow mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
@@ -28,7 +28,7 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-primaryYellow mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
           >
             <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
               REACT JS
@@ -41,7 +41,7 @@ export default function Services() {
             </p>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -50,7 +50,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -59,7 +59,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -68,7 +68,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -77,7 +77,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -87,7 +87,7 @@ export default function Services() {
           </div>
         </article>
         <article
-          className="border-gray-800 md:hover:border-primaryYellow mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
@@ -97,7 +97,7 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-primaryYellow mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
           >
             <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
               HTML | CSS | JAVASCRIPT
@@ -111,7 +111,7 @@ export default function Services() {
               lasting impression.
             </p>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -119,7 +119,7 @@ export default function Services() {
               </h1>
             </div>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -127,7 +127,7 @@ export default function Services() {
               </h1>
             </div>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -135,7 +135,7 @@ export default function Services() {
               </h1>
             </div>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -143,7 +143,7 @@ export default function Services() {
               </h1>
             </div>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -151,7 +151,7 @@ export default function Services() {
               </h1>
             </div>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -161,7 +161,7 @@ export default function Services() {
           </div>
         </article>
         <article
-          className="border-gray-800 md:hover:border-primaryYellow mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
@@ -171,7 +171,7 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-primaryYellow mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
           >
             <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
               NEXT JS
@@ -183,7 +183,7 @@ export default function Services() {
               remarkable framework and elevate your web projects.
             </p>
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -192,7 +192,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -201,7 +201,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">
@@ -210,7 +210,7 @@ export default function Services() {
             </div>
 
             <div className="flex items-center my-2">
-              <div className="text-primaryYellow">
+              <div className="text-[#FEC990]">
                 <TbWorldWww />
               </div>
               <h1 className="mt-0 mb-0 px-4 font-semibold text-xs md:text-sm">

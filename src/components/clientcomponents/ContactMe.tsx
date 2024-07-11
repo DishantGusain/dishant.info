@@ -31,11 +31,22 @@ export default function ContactMe() {
   };
 
   return (
-    <section id="contactme" className="relative bg-primaryYellow py-20 w-full">
+    <section id="contactme" className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 py-20 w-full">
       <div className="mb-24 text-center">
-        <h1 className="inline bg-black mt-0 mb-8 px-4 font-normal text-base text-primaryYellow md:text-xl">
-          Contact Me
-        </h1>
+    
+      <div className="inline bg-black py-1">
+          <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-black bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-transparent sm:text-lg md:text-lg">
+            Contact Me
+          </h1>
+        </div>
+
+
+
+
+
+
+
+
         <h3 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
           Let&apos;s Work Together
         </h3>
@@ -85,7 +96,7 @@ export default function ContactMe() {
               <input
                 name="name"
                 type="text"
-                className="border-0 border-yellow-500 focus:border-yellow-700 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
+                className="border-0 border-yellow-500 focus:border-orange-500 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
               />
             </div>
             <div className="my-4">
@@ -96,7 +107,7 @@ export default function ContactMe() {
               <input
                 name="email"
                 type="email"
-                className="border-0 border-yellow-500 focus:border-yellow-700 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
+                className="border-0 border-yellow-500 focus:border-orange-500 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
               />
             </div>
             <div className="my-4">
@@ -106,13 +117,13 @@ export default function ContactMe() {
               <br />
               <textarea
                 name="message"
-                className="border-0 border-yellow-500 focus:border-yellow-700 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
+                className="border-0 border-yellow-500 focus:border-orange-500 bg-transparent pt-2 border-b-2 w-full text-xl outline-none"
               ></textarea>
             </div>
             <button
               type="submit"
               value="submit"
-              className="border-0 bg-gray-900 mt-6 px-6 md:px-10 py-2 md:py-4 font-semibold text-sm text-white md:text-base"
+              className="border-0 bg-gray-900 mt-6 px-6 md:px-8 py-2 md:py-2 font-semibold text-sm text-white md:text-base hover:text-[#FECA93] transition duration-600"
             >
               Send
             </button>

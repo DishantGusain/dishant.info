@@ -25,7 +25,7 @@ export default function ScrollToTopButton() {
   return (
     <a
       href="#hero"
-      className={`right-10 bottom-10 z-50 fixed bg-primaryYellow p-4 border border-black border-solid rounded-full ${
+      className={`right-10 bottom-10 z-50 fixed bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 p-4 border border-black border-solid rounded-full ${
         showArrowUp ? 'animate-fadeIn' : 'animate-fadeOut'
       }`}
     >

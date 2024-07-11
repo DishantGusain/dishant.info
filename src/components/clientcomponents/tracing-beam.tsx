@@ -35,7 +35,7 @@ const TracingBeam = ({
   }, [updateSvgHeight]);
 
   const y1 = useSpring(
-    useTransform(scrollYProgress, [0, 0.6], [50, svgHeight]),
+    useTransform(scrollYProgress, [0, 0.7], [50, svgHeight]),
     {
       stiffness: 300,
       damping: 90,
@@ -90,10 +90,10 @@ const TracingBeam = ({
               y1={y1} // set y1 for gradient
               y2={y2} // set y2 for gradient
             >
-              <stop stopColor="#F9D57F" stopOpacity="0"></stop>
-              <stop stopColor="#F9D57F"></stop>
-              <stop offset="0.325" stopColor="#F9D57F"></stop>
-              <stop offset="1" stopColor="#F9D57F" stopOpacity="0"></stop>
+              <stop stopColor="#FECE9A" stopOpacity="0"></stop>
+              <stop stopColor="#FECE9A"></stop>
+              <stop offset="0.325" stopColor="#FECE9A"></stop>
+              <stop offset="1" stopColor="#FECE9A" stopOpacity="0"></stop>
             </motion.linearGradient>
           </defs>
         </svg>

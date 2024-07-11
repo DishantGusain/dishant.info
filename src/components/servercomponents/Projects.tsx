@@ -51,13 +51,13 @@ const FiveProject = {
 
 export default function Projects() {
   return (
-    <section id="portfolio" className="relative bg-primaryBackground">
+    <section id="portfolio" className="relative bg-primaryBackground pt-32 pb-10">
 
       {/* px-6 2xl:px-80 */}
 
       <TracingBeam className=" ">
-        <div className="px-6 2xl:px-80 pt-32 pb-10 text-center">
-          <h1 className="inline bg-primaryYellow mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
+        <div className="px-6 2xl:px-80 pb-10 text-center">
+          <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
             Portfolio
           </h1>
           <h1 className="mt-0 mb-2 font-semibold text-2xl text-white md:text-4xl">

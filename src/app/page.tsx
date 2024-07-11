@@ -23,3 +23,11 @@ export default function Home() {
     </main>
   );
 }
+
+
+
+
+
+
+
+// bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100

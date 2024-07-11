@@ -29,11 +29,12 @@ export default function MySkills() {
   }, []);
 
   return (
-    <section className="relative bg-primaryYellow pt-20 pb-28 w-full">
+    <section className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 pt-20 pb-28 w-full">
       <div className="mb-10 text-center">
-        <h3 className="inline bg-black mt-0 mb-0 px-4 font-normal text-base text-primaryYellow sm:text-lg md:text-lg">
+        <div className="inline bg-black py-1">
+        <h3 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-black bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-transparent sm:text-lg md:text-lg">
           My Skills
-        </h3>
+        </h3></div>
         <h3 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
           Expertise
         </h3>
@@ -51,7 +52,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   ref={elementRef}
                   className={`transition-opacity duration-1000 ${
@@ -70,7 +71,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -88,7 +89,7 @@ export default function MySkills() {
                   95%
                 </h3>
               </div>
-              <div  className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div  className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -106,7 +107,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -124,7 +125,7 @@ export default function MySkills() {
                   90%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -142,7 +143,7 @@ export default function MySkills() {
                   95%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -163,7 +164,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -181,7 +182,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -199,7 +200,7 @@ export default function MySkills() {
                   100%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -217,7 +218,7 @@ export default function MySkills() {
                   80%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -235,7 +236,7 @@ export default function MySkills() {
                   95%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
@@ -253,7 +254,7 @@ export default function MySkills() {
                   90%
                 </h3>
               </div>
-              <div className="bg-yellow-400 rounded-3xl w-full h-1 md:h-2">
+              <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
