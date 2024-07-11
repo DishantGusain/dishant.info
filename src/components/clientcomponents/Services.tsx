@@ -28,9 +28,9 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mr-2 ml-4 text-gray-400"
           >
-            <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
+            <h1 className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mt-0 mb-0 font-semibold text-center text-transparent text-xl md:text-gray-400 md:text-2xl">
               REACT JS
             </h1>
             <p className="my-4 font-normal text-sm md:text-base">
@@ -97,9 +97,9 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mr-2 ml-4 text-gray-400"
           >
-            <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
+            <h1 className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mt-0 mb-0 font-semibold text-center text-transparent text-xl md:text-gray-400 md:text-2xl">
               HTML | CSS | JAVASCRIPT
             </h1>
             <p className="my-4 font-normal text-sm md:text-base">
@@ -171,9 +171,9 @@ export default function Services() {
             />
           </div>
           <div
-            className="group-hover:md:text-[#FEC990] mr-2 ml-4 text-gray-400"
+            className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mr-2 ml-4 text-gray-400"
           >
-            <h1 className="mt-0 mb-0 font-semibold text-center text-xl md:text-2xl">
+            <h1 className="group-hover:md:text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mt-0 mb-0 font-semibold text-center text-transparent text-xl md:text-gray-400 md:text-2xl">
               NEXT JS
             </h1>
             <p className="my-4 font-normal text-sm md:text-base">
