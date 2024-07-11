@@ -1,5 +1,5 @@
-"use client";
-import React, { useState } from "react";
+
+import React from "react";
 
 interface TestProps {
   title: string;
@@ -18,49 +18,34 @@ export default function SmallCard({
   href,
   imgAlt,
 }: TestProps) {
-  const [isShown, setIsShown] = useState(false);
 
   return (
     <div className="relative sm:mx-6 mb-20 sm:mb-0 md:w-1/2">
       <div
         className="relative h-full"
-        onMouseEnter={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)}
       >
         <a href={href} target="_blank" className="no-underline">
-          <div className="relative h-[30rem]">
+          <div className="relative">
+          <div className="relative md:h-[30rem] group">
+            <div className="top-0 absolute -inset-y-1 inset-x-2 bg-yellow-100 opacity-0 group-hover:opacity-50 blur rounded-lg w-full transition duration-700 group-hover:duration-600">sadasd</div>
+          
             <img
               src={imgSrc}
-              
+
               alt={imgAlt}
               className="relative flex justify-center rounded-2xl w-full h-full object-cover"
-            />
-            {isShown === true ? (
-              <div className="bottom-2 left-2 z-10 absolute flex sm:flex">
-                <div className="bg-textprimary mx-2 px-3 rounded-2xl text-base text-black">
-                  {tag1}
-                </div>
-                <div className="bg-textprimary mx-2 px-3 rounded-2xl text-base text-black">
-                  {tag2}
-                </div>
+            /></div>
+            <div className="bottom-2 left-2 z-10 absolute flex sm:flex">
+              <div className="bg-white mx-2 px-2 md:px-3 rounded-2xl text-black text-sm md:text-base">
+                {tag1}
               </div>
-            ) : (
-              <div className="bottom-2 left-2 z-10 absolute flex sm:flex">
-                <div className="bg-white mx-2 px-3 rounded-2xl text-base text-black">
-                  {tag1}
-                </div>
-                <div className="bg-white mx-2 px-3 rounded-2xl text-base text-black">
-                  {tag2}
-                </div>
+              <div className="bg-white mx-2 px-2 md:px-3 rounded-2xl text-black text-sm md:text-base">
+                {tag2}
               </div>
-            )}
+            </div>
           </div>
 
-          {isShown === true ? (
-            <h2 className="my-3 font-extralight text-textprimary text-xl">{title}</h2>
-          ) : (
-            <h2 className="my-3 font-extralight text-white text-xl">{title}</h2>
-          )}
+          <h2 className="my-6 text-base text-white sm:text-2xl">{title}</h2>
         </a>
       </div>
     </div>

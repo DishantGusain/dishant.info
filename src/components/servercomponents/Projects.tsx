@@ -2,7 +2,7 @@
 import WideCard from "../clientcomponents/WideCard";
 import SmallCard from "../clientcomponents/SmallCard";
 import { Fade } from "react-awesome-reveal";
-import  TracingBeam  from "../clientcomponents/tracing-beam";
+import TracingBeam from "../clientcomponents/tracing-beam";
 
 const FirstProject = {
   imgSrc: "/Images/SinghDrywallShowcaseBanner.webp",
@@ -15,14 +15,14 @@ const FirstProject = {
 const SecondProject = {
   imgSrc: "/Images/portfolio2.webp",
   title: "Job Portal Website",
-  tag1: "Next Js",
-  tag2: "Tailwind",
+  tag1: "Database Integration",
+  tag2: "Dynamic URL",
   imgAlt: "Job Portal Website",
 };
 const ThirdProject = {
   imgSrc: "/Images/portfolio33.webp",
   title: "Admin Dashboard for Vending Machine Distributors",
-  tag1: "React SPA",
+  tag1: "Single Page Application",
   tag2: "Redux-toolkit",
   imgAlt: "Admin Dashboard for Vending Machine Distributors",
 };
@@ -32,10 +32,21 @@ const FourProject = {
   title:
     "A Strategic Sourcing software for procurement teams to stay organized.",
   tag1: "React js",
-  tag2: "twin Macro",
-  tag3: "Firebase",
+  tag2: "Next.js",
+  tag3: "TailwindCSS",
   imgAlt:
     "A Strategic Sourcing software for procurement teams to stay organized",
+};
+
+const FiveProject = {
+  imgSrc: "/Images/VIVIANlShowcaseBanner.webp",
+  title:
+    "Modern UI/UX Landing Page built for upcoming AI product web application.",
+  tag1: "React js",
+  tag2: "Framer",
+  tag3: "Figma",
+  imgAlt:
+    "Modern UI/UX Landing Page built for upcoming AI product web application.",
 };
 
 export default function Projects() {
@@ -46,10 +57,10 @@ export default function Projects() {
 
       <TracingBeam className=" ">
         <div className="px-6 2xl:px-80 pt-32 pb-10 text-center">
-          <h1 className="inline bg-textprimary mt-0 mb-0 px-4 font-normal text-black text-xl">
+          <h1 className="inline bg-primaryYellow mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
             Portfolio
           </h1>
-          <h1 className="mt-0 mb-2 font-semibold text-3xl text-white md:text-4xl">
+          <h1 className="mt-0 mb-2 font-semibold text-2xl text-white md:text-4xl">
             Some of my most recent projects
           </h1>
         </div>
@@ -67,8 +78,23 @@ export default function Projects() {
 
           />
 
+          <div className="my-28 md:my-36">
+            <WideCard
 
-          <div className="lg:flex justify-center mb-28 md:mb-0 lg:px-48 2xl:px-20">
+              href="https://copilot.vivian.com/"
+              imgSrc={FiveProject.imgSrc}
+              imgAlt={FiveProject.imgAlt}
+              title={FiveProject.title}
+              tag1={FiveProject.tag1}
+              tag2={FiveProject.tag2}
+              tag3={FiveProject.tag3}
+
+            />
+          </div>
+
+
+
+          <div className="lg:flex justify-center md:my-36 md:mb-0 lg:px-48 2xl:px-20">
 
             <SmallCard
 
@@ -91,7 +117,8 @@ export default function Projects() {
             />
           </div>
         </Fade>
-        <Fade direction="up" triggerOnce className="px-6 2xl:px-80 pb-28">
+
+        <Fade direction="up" triggerOnce className="md:mt-36 px-6 2xl:px-80 pb-10">
 
 
           <WideCard

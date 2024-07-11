@@ -29,12 +29,12 @@ export default function MySkills() {
   }, []);
 
   return (
-    <section className="bg-yellow-300 pt-20 pb-28 w-full">
+    <section className="relative bg-primaryYellow pt-20 pb-28 w-full">
       <div className="mb-10 text-center">
-        <h3 className="inline bg-black mt-0 mb-0 px-4 font-normal text-lg text-textprimary md:text-lg">
+        <h3 className="inline bg-black mt-0 mb-0 px-4 font-normal text-base text-primaryYellow sm:text-lg md:text-lg">
           My Skills
         </h3>
-        <h3 className="mt-0 mb-2 font-semibold text-3xl md:text-4xl">
+        <h3 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
           Expertise
         </h3>
       </div>

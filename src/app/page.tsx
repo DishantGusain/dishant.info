@@ -12,19 +12,12 @@ export default function Home() {
 
     <main className="">
 
-    
-      
       <Hero />
-      
-
-
       <AboutMe />
       <Projects />
       <MySkills />
-
       <Services />
-<ScrollToTopButton/>
-
+      <ScrollToTopButton />
       <ContactMe />
 
     </main>
