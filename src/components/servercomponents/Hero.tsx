@@ -5,7 +5,7 @@ import TypingAnimationComponent from "../clientcomponents/TypingAnimationCompone
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative bg-gray-900">
+    <section id="hero" className="relative bg-secondaryBackground">
       <TsParticles />
 
       <div className="sm:block top-10 2xl:top-12 left-8 2xl:left-12 z-40 sm:absolute hidden">
@@ -16,19 +16,19 @@ export default function Hero() {
         />
       </div>
 
-      <div className="z-30 md:flex justify-center items-center bg-primaryBackground px-8 2xl:px-32 md:h-screen HeroContainer">
+      <div className="z-50 md:flex justify-center items-center bg-secondaryBackground px-8 2xl:px-32 md:h-screen HeroContainer">
         <div className="flex justify-center items-center pt-6 sm:pt-32 md:pt-0 2xl:pl-20 w-full md:w-1/2 h-1/12 md:h-full text-center">
           <div className="relative w-80 md:w-96 2xl:w-100 h-80 md:h-96 2xl:h-100 animate-ProfileAnimate">
             <img
               src="/Images/hero.webp"
               alt="Freelance Developer Icon Art"
-              className="rounded-full w-full h-full object-contain"
+              className="bg-secondaryBackground rounded-full w-full h-full object-contain"
             />
           </div>
         </div>
 
-        <div className="z-30 flex justify-center items-center md:pt-0 pb-20 md:pb-0 w-full md:w-1/2 h-[45%] md:h-full text-left">
-          <div className="">
+        <div className="z-50 flex justify-center items-center md:pt-0 pb-20 md:pb-0 w-full md:w-1/2 h-[45%] md:h-full text-left">
+          <div className="bg-secondaryBackground">
             <TypingAnimationComponent />
             <h1 className="bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mt-0 mb-2 py-2 sm:py-0 font-bold text-5xl text-left text-textprimary text-transparent md:text-8xl 2xl:text-9xl">
               DISHANT

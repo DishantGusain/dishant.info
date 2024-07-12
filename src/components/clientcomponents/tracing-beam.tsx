@@ -52,7 +52,7 @@ const TracingBeam = ({
   return (
     <motion.div
       ref={ref}
-      className={cn("relative w-full h-full", className)}
+      className={cn("relative  w-full h-full", className)}
     >
       <div className="top-0 left-10 md:left-24 z-30 absolute">
         <svg

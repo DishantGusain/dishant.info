@@ -57,7 +57,7 @@ export default function MySkills() {
                   ref={elementRef}
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[95%]`}
+                  } bg-black rounded-3xl h-full  w-[95%]`}
                 />
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[90%]`}
+                  } bg-black rounded-3xl h-full  w-[90%]`}
                 />
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[95%]`}
+                  } bg-black rounded-3xl h-full  w-[95%]`}
                 />
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-full`}
+                  } bg-black rounded-3xl h-full  w-full`}
                 />
               </div>
             </div>
@@ -222,7 +222,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[80%]`}
+                  } bg-black rounded-3xl h-full  w-[80%]`}
                 />
               </div>
             </div>
@@ -240,7 +240,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[95%]`}
+                  } bg-black rounded-3xl h-full  w-[95%]`}
                 />
               </div>
             </div>
@@ -258,7 +258,7 @@ export default function MySkills() {
                 <div
                   className={`transition-opacity duration-1000 ${
                     isVisible ? "animate-slideRight" : ""
-                  } bg-gray-700 rounded-3xl h-full  w-[90%]`}
+                  } bg-black rounded-3xl h-full  w-[90%]`}
                 />
               </div>
             </div>

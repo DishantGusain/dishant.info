@@ -6,7 +6,7 @@ import { TbWorldWww } from "react-icons/tb";
 export default function Services() {
 
   return (
-    <section className="relative bg-primaryBackground px-0 md:px-20 2xl:px-56 pt-20 pb-28">
+    <section className="relative bg-primaryBackground px-0 md:px-20 2xl:px-56 pt-20 pb-16 md:pb-28">
       <div className="mb-10 text-center">
         <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-black md:text-xl">
           What I Do

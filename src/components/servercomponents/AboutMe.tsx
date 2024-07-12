@@ -3,7 +3,7 @@ import TwoColumns from "./twoColumns";
 
 export default function AboutMe() {
   return (
-    <section className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 px-6 2xl:px-80 pt-40 pb-20">
+    <section className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 px-6 2xl:px-80 pt-20 md:pt-40 pb-20">
       <div className="mb-10 text-center">
          
       <div className="inline bg-black py-1">

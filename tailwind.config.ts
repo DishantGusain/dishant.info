@@ -19,8 +19,8 @@ const config: Config = {
       colors: {
         textprimary: "#FCD34D",
         textsecondary: "#9CA3AF",
-        primaryBackground: "#030712",
-        secondaryBackground: "#FCD34D",
+        primaryBackground: "black",
+        secondaryBackground: "#02060F",
         primaryYellow:"#FCD34D",
       },
       spacing: {
