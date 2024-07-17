@@ -58,7 +58,7 @@ const TracingBeam = ({
         <svg
           viewBox={`0 0 20 ${svgHeight}`}
           width="20"
-          height={svgHeight} // Set the SVG height
+          height={svgHeight} 
           className="md:block hidden ml-4"
           aria-hidden="true"
         >
@@ -87,8 +87,8 @@ const TracingBeam = ({
               gradientUnits="userSpaceOnUse"
               x1="0"
               x2="0"
-              y1={y1} // set y1 for gradient
-              y2={y2} // set y2 for gradient
+              y1={y1}
+              y2={y2}
             >
               <stop stopColor="#FECE9A" stopOpacity="0"></stop>
               <stop stopColor="#FECE9A"></stop>

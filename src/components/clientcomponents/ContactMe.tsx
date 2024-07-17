@@ -20,8 +20,8 @@ export default function ContactMe() {
         .then(
           (result) => {
             console.log(result.text);
-            
-            window.location.reload(); // Refresh the page after email is sent
+
+            window.location.reload();
           },
           (error) => {
             console.log(error.text);
@@ -33,19 +33,12 @@ export default function ContactMe() {
   return (
     <section id="contactme" className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 py-20 w-full">
       <div className="mb-24 text-center">
-    
-      <div className="inline bg-black py-1">
+
+        <div className="inline bg-black py-1">
           <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-black bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-transparent sm:text-lg md:text-lg">
             Contact Me
           </h1>
         </div>
-
-
-
-
-
-
-
 
         <h3 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
           Let&apos;s Work Together

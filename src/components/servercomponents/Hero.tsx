@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BsArrowDownCircle } from "react-icons/bs";
 import TsParticles from "./../clientcomponents/TsParticles";
 import TypingAnimationComponent from "../clientcomponents/TypingAnimationComponent";

@@ -1,11 +1,10 @@
 import ContactMe from "@/components/clientcomponents/ContactMe";
 import MySkills from "@/components/clientcomponents/MySkills";
 import ScrollToTopButton from "@/components/clientcomponents/ScrollToTopButton";
-import Services from "@/components/clientcomponents/Services";
+import Services from "@/components/servercomponents/Services";
 import AboutMe from "@/components/servercomponents/AboutMe";
 import Hero from "@/components/servercomponents/Hero";
-import Projects from "@/components/servercomponents/Projects";
-import { FaArrowUp } from "react-icons/fa";
+import Projects from "@/components/clientcomponents/Projects";
 
 export default function Home() {
   return (
@@ -23,11 +22,3 @@ export default function Home() {
     </main>
   );
 }
-
-
-
-
-
-
-
-// bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100

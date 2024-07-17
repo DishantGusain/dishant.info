@@ -1,8 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Website
+
+Welcome to my personal portfolio website! I developed to showcase my skills and projects. Built with React and Next.js, it features a modern, responsive design created with Tailwind CSS. The design was meticulously crafted using Figma. The website highlights my expertise in front-end and full-stack development, with detailed descriptions of my projects and a section on my technical skills and tools.
+
+## Table of Contents
+
+- [Live](#live)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
+
+## Live
+
+Check out the live demo of the portfolio website [here](https://dishant.info/).
+
+## Features
+
+- Responsive design
+- Modern UI/UX
+- Interactive elements
+- Project showcase
+- Contact form
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **CSS**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Bootstrap**: [Create Next App](https://nextjs.org/docs/api-reference/create-next-app)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/DishantGusain/dishant-portfolio
+   cd dishant-portfolio
+
+   ```
+
+2. Run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +62,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email: dyno3ddd@gmail.com
+Upwork: https://www.upwork.com/freelancers/dishantgusain

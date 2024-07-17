@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head"; // Import Head from next/head for managing HTML metadata
+import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -91,10 +91,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         {children}
-        {/* <link
-          itemProp="thumbnailUrl"
-          href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/Dishant%20Gusain%20React%20Next%20Js%20Responsive%20Front%20End.png?alt=media&token=9d7246ab-c949-4c4b-8a09-4b31778e9e3d"
-        /> */}
+
         <span
           itemProp="thumbnail"
           itemScope

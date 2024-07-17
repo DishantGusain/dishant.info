@@ -1,6 +1,4 @@
 
-import React from "react";
-
 interface TestProps {
   title: string;
   tag1: string;

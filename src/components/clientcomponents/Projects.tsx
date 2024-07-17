@@ -1,8 +1,8 @@
 "use client";
-import WideCard from "../clientcomponents/WideCard";
-import SmallCard from "../clientcomponents/SmallCard";
+import WideCard from "../servercomponents/WideCard";
+import SmallCard from "../servercomponents/SmallCard";
 import { Fade } from "react-awesome-reveal";
-import TracingBeam from "../clientcomponents/tracing-beam";
+import TracingBeam from "./tracing-beam";
 
 const FirstProject = {
   imgSrc: "/Images/SinghDrywallShowcaseBanner.webp",
@@ -52,8 +52,6 @@ const FiveProject = {
 export default function Projects() {
   return (
     <section id="portfolio" className="relative bg-primaryBackground pt-24 md:pt-32">
-
-      {/* px-6 2xl:px-80 */}
 
       <TracingBeam className=" ">
         <div className="px-6 2xl:px-80 pb-4 md:pb-10 text-center">

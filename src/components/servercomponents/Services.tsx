@@ -1,6 +1,4 @@
 
-
-import React from "react";
 import { TbWorldWww } from "react-icons/tb";
 
 export default function Services() {
