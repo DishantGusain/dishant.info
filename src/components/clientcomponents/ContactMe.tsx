@@ -62,7 +62,7 @@ export default function ContactMe() {
               Patiala, Punjab, INDIA.
             </h3>
             <h3 className="mt-0 mb-2 font-semibold text-base md:text-xl">
-              Whatsapp:
+              WhatsApp:
             </h3>
             <h3 className="mt-0 mb-8 font-normal text-sm md:text-lg">
               (+91) 7889135892
