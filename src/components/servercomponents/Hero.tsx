@@ -38,18 +38,18 @@ export default function Hero() {
             </h1>
 
             <div className="sm:flex justify-start items-center sm:my-10 mt-10 text-black text-sm no-underline">
-              <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 button button--pandora">
+              <div className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 button button--pandora">
                 <a
                   className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 text-primaryBackground no-underline"
                   href="#portfolio"
                 >
                   &lt; View My Work /&gt;
                 </a>
-              </button>
-              <div className="flex items-center mt-4 sm:mt-0 text-base text-white hover:underline cursor-pointer">
+              </div>
+              <div className="flex items-center mt-4 sm:mt-0 ml-0 sm:ml-12 text-base text-white hover:underline cursor-pointer">
                 <a
                   href="#contactme"
-                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 mr-2 ml-0 sm:ml-12 font-semibold text-transparent no-underline"
+                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 pr-2 font-semibold text-transparent no-underline"
                 >
                   Contact Me
                 </a>

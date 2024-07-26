@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -89,24 +88,9 @@ export default function RootLayout({
           content="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/Dishant%20Gusain%20React%20Next%20Js%20Responsive%20Front%20End.png?alt=media&token=9d7246ab-c949-4c4b-8a09-4b31778e9e3d"
         />
       </Head>
-      <head>
-
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CNZL3ZYY3E"></Script>
-        <Script id="google-analytics">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-CNZL3ZYY3E');`}
-        </Script>
-
-
-
-
-      </head>
-
-
+      
       <body className={inter.className}>
-
+      
         {children}
 
         <span

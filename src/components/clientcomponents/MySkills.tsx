@@ -32,12 +32,12 @@ export default function MySkills() {
     <section className="relative bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-300 to-orange-100 pt-20 pb-28 w-full">
       <div className="mb-10 text-center">
         <div className="inline bg-black py-1">
-          <h3 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-black bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-transparent sm:text-lg md:text-lg">
+          <h1 className="inline bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-black bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 px-4 font-normal text-base text-transparent sm:text-lg md:text-lg">
             My Skills
-          </h3></div>
-        <h3 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
+          </h1></div>
+        <h2 className="mt-0 mb-2 font-semibold text-2xl md:text-4xl">
           Expertise
-        </h3>
+        </h2>
       </div>
 
       <div className="md:flex justify-between items-start lg:px-48 2xl:px-72">
@@ -48,9 +48,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   HTML
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -66,9 +66,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   CSS
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -83,9 +83,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   JavaScript
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   95%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -100,9 +100,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Tailwind CSS
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -117,9 +117,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Redux Toolkit
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   90%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -134,9 +134,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Google Firebase Console
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   95%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -154,9 +154,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   React Js
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -171,9 +171,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Next Js
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -188,9 +188,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Front-End Development
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   100%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -205,9 +205,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Back-End Development
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   80%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -222,9 +222,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Twin Macro (React Library)
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   95%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
@@ -239,9 +239,9 @@ export default function MySkills() {
                 <h1 className="mt-0 mb-0 font-normal text-base md:text-lg">
                   Adobe XD / FIGMA
                 </h1>
-                <h3 className="mt-0 mb-0 font-normal text-base md:text-lg">
+                <p className="mt-0 mb-0 font-normal text-base md:text-lg">
                   90%
-                </h3>
+                </p>
               </div>
               <div className="bg-orange-300 rounded-3xl w-full h-1 md:h-2">
                 <div
