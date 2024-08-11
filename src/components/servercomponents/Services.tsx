@@ -14,14 +14,14 @@ export default function Services() {
         </h1>
       </div>
 
-      <div className="md:flex justify-around my-20 w-full animate-slideTop">
+      <div className="lg:flex justify-around my-20 w-full animate-slideTop">
         <article
-          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-10 lg:my-0 p-4 border border-solid rounded-xl lg:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
               src="/Images/card4.webp"
-              className="w-9/12"
+              className="w-9/12 md:w-6/12 lg:w-9/12"
               alt="React Js Developer"
             />
           </div>
@@ -85,12 +85,12 @@ export default function Services() {
           </div>
         </article>
         <article
-          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6  my-4 md:my-10 lg:my-0  p-4 border border-solid rounded-xl lg:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
               src="/Images/card5.webp"
-              className="w-9/12"
+              className="w-9/12 md:w-6/12 lg:w-9/12"
               alt="HTML CSS JAVSCRIPT FRONT-END Developer"
             />
           </div>
@@ -159,12 +159,12 @@ export default function Services() {
           </div>
         </article>
         <article
-          className="border-gray-800 md:hover:border-[#FEC990] mx-6 my-4 md:my-0 p-4 border border-solid rounded-xl md:w-5/12 2xl:w-4/12 duration-500 group"
+          className="border-gray-800 md:hover:border-[#FEC990] mx-6  my-4 md:my-10 lg:my-0  p-4 border border-solid rounded-xl lg:w-5/12 2xl:w-4/12 duration-500 group"
         >
           <div className="flex justify-center mt-4 mb-8 w-full">
             <img
               src="/Images/card6.webp"
-              className="w-9/12"
+              className="w-9/12 md:w-6/12 lg:w-9/12"
               alt="Next Js Developer"
             />
           </div>

@@ -1,10 +1,10 @@
 
 export default function TwoColumns() {
   return (
-    <article className="md:flex items-center my-16 md:my-20">
-      <div className="md:flex justify-center items-center sm:pl-20 2xl:pl-0 md:w-8/12">
+    <article className="lg:flex items-center my-16 lg:my-20">
+      <div className="lg:flex justify-center items-center  2xl:pl-0 lg:w-8/12">
         <div className="w-full text-left">
-          <h1 className="mt-0 mb-0 pb-2 font-normal text-black text-xl md:text-3xl">
+          <h1 className="mt-0 mb-0 pb-2 font-normal text-black text-xl lg:text-3xl">
 
             Front-End&nbsp;
             <span className="font-bold text-primaryBackground">
@@ -18,7 +18,7 @@ export default function TwoColumns() {
         </div>
       </div>
 
-      <div className="md:flex justify-center items-center pt-10 md:pt-0 2xl:pl-20 md:w-4/12">
+      <div className="lg:flex justify-center items-center pt-10 lg:pt-0  lg:pl-20 lg:w-4/12">
         <div className="w-full text-left">
           <div className="md:flex items-center py-2">
             <h2 className="font-semibold text-base sm:text-lg">Name:</h2>
