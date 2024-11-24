@@ -18,9 +18,9 @@ export default function Hero() {
             />
          </div>
 
-         <div className="z-50 lg:flex justify-center items-center bg-secondaryBackground px-10 2xl:px-32 lg:h-screen HeroContainer">
-            <div className="flex justify-center items-center pt-6 sm:pt-32 md:pt-0 2xl:pl-20 w-full lg:w-1/2 h-1/12 lg:h-full text-center">
-               <div className="relative w-80 md:w-96 2xl:w-100 h-80 md:h-96 2xl:h-100 animate-ProfileAnimate">
+         <div className="z-50 lg:flex justify-center items-center bg-secondaryBackground px-10 2xl:px-32  lg:h-screen HeroContainer">
+            <div className="flex justify-end items-center pt-6 sm:pt-32 md:pt-0 2xl:pl-20 w-full lg:w-[50%] h-1/12 lg:h-full text-center ">
+               <div className="relative w-80 md:w-97 2xl:w-100 h-80 md:h-97 2xl:h-100 mr-[10%] animate-ProfileAnimate">
                   <img
                      src="/Images/hero.webp"
                      alt="Freelance Developer Icon Art"
@@ -29,14 +29,23 @@ export default function Hero() {
                </div>
             </div>
 
-            <div className="z-50 flex justify-center items-center lg:pt-0 pb-20 lg:pb-0 w-full lg:w-1/2 h-[45%] lg:h-full text-left">
+            <div className="z-50 flex justify-center items-center lg:pt-0 pb-20 lg:pb-0 w-full lg:w-[50%] h-[45%] lg:h-full text-left ">
                <div className="bg-secondaryBackground md:w-96 lg:w-full">
-                  <TypingAnimationComponent />
+                  <div className="flex items-end space-x-2  animate-slideBottom">
+                     <h1 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] mt-0 mb-0 font-extralight text-2xl text-left text-transparent md:text-3xl lg:text-4xl 2xl:text-4xl bg-clip-text from-orange-500 via-orange-300 to-orange-100">
+                        Hi, I'M
+                     </h1>
+                     <TypingAnimationComponent />
+                  </div>
                   <h1 className="bg-clip-text bg-gradient-to-r from-orange-300 via-orange-100 to-orange-400 mt-0 mb-2 py-2 sm:py-0 font-bold text-5xl text-left text-textprimary text-transparent md:text-7xl lg:text-8xl 2xl:text-9xl">
                      DISHANT
                   </h1>
-                  <h1 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 font-normal text-left text-lg text-transparent md:text-lg lg:text-xl 2xl:text-2xl">
-                     Specializing in React / Next Js Front-End Development
+                  <h1 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] mt-0 mb-0 font-light text-left text-lg text-transparent md:text-lg lg:text-xl 2xl:text-2xl bg-clip-text from-orange-500 via-orange-300 to-orange-100 ">
+                     Specializing in{" "}
+                     <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] px-1 font-medium text-black from-orange-500 via-orange-300 to-orange-100 animate-gradientX   text-nowrap">
+                        React / Next.js
+                     </span>
+                     &nbsp;Front-End Development.
                   </h1>
 
                   <div className="sm:flex justify-start items-center sm:my-10 mt-10 text-black text-sm no-underline">
