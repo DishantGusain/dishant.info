@@ -1,6 +1,6 @@
 export default function TwoColumns() {
    return (
-      <article className="lg:flex items-center my-16 lg:my-20 lg:px-16 2xl:px-0 text-sm lg:text-base">
+      <article className="lg:flex items-center my-16 lg:my-20 lg:px-16 2xl:px-0 text-sm lg:text-base 2xl:text-lg">
          <div className="lg:flex justify-center items-center  2xl:pl-0 lg:w-8/12">
             <div className="w-full text-left space-y-4">
                <h1 className=" font-normal text-black text-xl lg:text-3xl">
@@ -10,7 +10,7 @@ export default function TwoColumns() {
                   </span>
                </h1>
 
-               <p className="font-normal  text-primaryBackground   ">
+               <p className="font-normal  text-primaryBackground ">
                   With 4 years of professional experience and&nbsp;
                   <span className="font-semibold hover:text-[#1F57C3] group  duration-300 ">
                      <a

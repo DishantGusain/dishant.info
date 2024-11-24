@@ -33,7 +33,7 @@ export default function Hero() {
                <div className="bg-secondaryBackground md:w-96 lg:w-full">
                   <div className="flex items-end space-x-2  animate-slideBottom">
                      <h1 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] mt-0 mb-0 font-extralight text-2xl text-left text-transparent md:text-3xl lg:text-4xl 2xl:text-5xl bg-clip-text from-orange-500 via-orange-300 to-orange-100">
-                        Hi, I'M
+                        Hi, I&apos;M
                      </h1>
                      <TypingAnimationComponent />
                   </div>

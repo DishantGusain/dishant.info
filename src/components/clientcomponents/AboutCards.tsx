@@ -12,7 +12,7 @@ export default function AboutCards() {
                <h2 className="mt-0 mb-0 font-semibold text-3xl text-primaryBackground lg:text-5xl">
                   4
                </h2>
-               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base text-primaryBackground ">
+               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base 2xl:text-lg text-primaryBackground ">
                   Years of experiance
                </h2>
             </div>
@@ -20,7 +20,7 @@ export default function AboutCards() {
                <h2 className="mt-0 mb-0 font-semibold text-3xl text-primaryBackground lg:text-5xl">
                   20+
                </h2>
-               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base text-primaryBackground ">
+               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base 2xl:text-lg text-primaryBackground ">
                   Happy clients
                </h2>
             </div>
@@ -28,7 +28,7 @@ export default function AboutCards() {
                <h2 className="mt-0 mb-0 font-semibold text-3xl text-primaryBackground lg:text-5xl">
                   45+
                </h2>
-               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base text-primaryBackground  text-center">
+               <h2 className="mt-0 mb-0 font-normal text-sm lg:text-base 2xl:text-lg text-primaryBackground  text-center">
                   Projects completed successfully
                </h2>
             </div>
