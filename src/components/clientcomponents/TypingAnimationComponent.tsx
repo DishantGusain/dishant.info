@@ -8,7 +8,7 @@ const TypeAnimation = dynamic(() => import('react-type-animation').then(mod => m
 function TypingAnimationComponent() {
     return (
         <div>
-            <h2 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 font-extralight text-2xl text-left text-transparent md:text-3xl lg:text-4xl ">
+            <h2 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bg-clip-text from-orange-500 via-orange-300 to-orange-100 mt-0 mb-0 font-extralight text-2xl text-left text-transparent md:text-3xl lg:text-4xl 2xl:text-5xl ">
                 <TypeAnimation
                     preRenderFirstString={true}
                     sequence={[
