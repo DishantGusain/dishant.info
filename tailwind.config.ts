@@ -43,6 +43,9 @@ const config: Config = {
             slideRight: "slideRight 2s  ease forwards",
             fadeIn: "fadeIn 0.5s ease-in-out forwards",
             fadeOut: "fadeOut 0.2s ease-in-out forwards",
+
+            fadeBG: "fadeBG 5s ease-in-out forwards",
+            gradientX: "gradientX 5s ease infinite",
          },
          keyframes: {
             spin: {
@@ -125,6 +128,14 @@ const config: Config = {
             fadeOut: {
                "0%": { opacity: "1", visibility: "visible" },
                "100%": { opacity: "0", visibility: "hidden" },
+            },
+            fadeBG: {
+               "0%": { opacity: "0", visibility: "hidden" },
+               "100%": { opacity: "1", visibility: "visible" },
+            },
+            gradientX: {
+               "0%, 100%": { "background-position": "0% 50%" },
+               "50%": { "background-position": "100% 50%" },
             },
          },
 
