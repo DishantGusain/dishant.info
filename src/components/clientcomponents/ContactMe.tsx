@@ -84,7 +84,7 @@ export default function ContactMe() {
                      Email:
                   </h2>
                   <h3 className=" font-normal text-sm md:text-lg">
-                     dyno3ddd@gmail.com
+                  email@dishant.info
                   </h3></div> 
                </div>
             </div>

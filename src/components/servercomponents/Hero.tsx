@@ -41,11 +41,10 @@ export default function Hero() {
                      DISHANT
                   </h1>
                   <h1 className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))]   font-light text-left text-lg text-transparent md:text-lg lg:text-xl 2xl:text-2xl bg-clip-text from-orange-500 via-orange-300 to-orange-100 ">
-                     Specializing in
+                     Specializing in React / Next.js Front-End Development.
                      {/*&nbsp; <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] px-1 font-medium text-black from-orange-500 via-orange-300 to-orange-100 animate-gradientX   text-nowrap">
                         React / Next.js
                      </span>&nbsp; */}
-                     React / Next.js Front-End Development.
                   </h1>
 
                   <div className="flex justify-start items-center lg:my-10 my-6  text-black text-xs lg:text-sm no-underline">

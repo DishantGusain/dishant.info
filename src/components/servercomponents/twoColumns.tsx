@@ -85,7 +85,7 @@ export default function TwoColumns() {
                      className="lg:pl-2   text-primaryBackground  "
                      tw=""
                   >
-                     dyno3ddd@gmail.com
+                     email@dishant.info
                   </h2>
                </div>
                <div className="bg-gray-700 w-full h-[1px]" />
